@@ -33,7 +33,7 @@ try{
   window.apiUrl = `https://img.logo.dev/${companyName2}.com?token=${apiKey}`
 }catch(error){
   if(error){
-    console.error(`Error fetching data:`, error)
+    console.error(`Error the fetching data:`, error)
   }
 }
   async function getData() {
